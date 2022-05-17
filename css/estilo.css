@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #1C0A00DA;
+    font-family: 'Roboto', sans-serif;
+}
+a,:visited,:active {
+    text-decoration: none;
+    color: rgb(143, 73, 8);
+}
+a:hover {
+    color: rgb(245, 122, 8);
+}
+                /* CABECERA */
+.cabecera {
+    margin: auto;
+    width: 820px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.redes {
+    margin-left: auto;
+}
+.iconoPlataformas {
+    padding: 5px;
+    color: rgb(143, 73, 8);
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.botonMenu:hover {
+    background-color: #d3570b;
+}
+.linkMenu {
+    background-color: #2e1102da;
+    display: block;
+    text-decoration: none; /*quita subrayado */
+    padding: 20px;
+}
+.linkMenu:hover {
+    color: rgb(245, 122, 8);
+}
+.linkMenu {
+    color:antiquewhite;
+}
+                /* INICIO, BIENVENIDA, IMAGEN DE INICIO Y ALGÚN TÍTULO */
+.contenedor {
+    margin-top: 30px;
+}
+.inicio {
+    text-align: center;
+    color:aliceblue;
+}
+.imagenInicio {
+    background-color: #72310dda;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 820px;
+    border: 5px solid black;
+    padding: 15px;
+}
+                /* SECCION, CONTENIDO DE NOTICIAS, BLOG, ETC, EN COLUMNAS */
+
+.titulosSeccionInicio {
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.novedades {
+    width: 820px;
+    padding: 10px;
+    background-color: #72310dda;
+    display: block;
+    border: 5px solid;
+    margin: auto;
+    margin-top: 30px;
+    display: flex; /*pone cada columna una al lado de la otra */
+    flex-direction: column; 
+}
+.imagenNovedades {
+    width: 15%;
+    height: 15%;
+}
+.recuadroNovedades {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    border: 1px solid;
+    background-color: #d3570b;
+}
+.tituloNovedad {
+    padding: 10px;
+}
+.inicioBlogdiario {
+    margin-top: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    display: flex; 
+    flex-direction: row; /*predeterminada, si pongo column, se ubica cada item debajo del otro */
+}
+.cajaBlogdiario {
+    max-height: 600px;
+    height: 100%;
+    background-color: #a03d08da;
+    border: 1px solid;
+    flex-grow: 1; /* Utiliza el espacio disponible a los costados */
+    padding: 10px;
+    flex-basis: 50%;
+}
+.imgBlog {
+    max-width: 100%;
+    height: auto;
+}
+                /* PIE DE PÁGINA */
+.footer {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: azure;
+}
+                /* DISCOGRAFIA */
+#cajaSimples {
+    width: 800px;
+    margin: auto;
+    border: #1b1715 1px solid;
+}
+.preDisco {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 25% 75%;
+    margin:auto;
+    width: 780px;
+    padding: 20px;
+}
+.tapaSimple {
+    width: 90%;
+}    
+h2 {
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+    color: #bdb5b0;
+}
+.tituloSimple {
+    background-color: #1b1715;
+    padding: 10px;
+    color: bisque;
+}
+.lanzamiento, .escucharEn {
+    padding: 10px;
+    background-color: #1b1715;
+    color: rgb(245, 194, 131);
+}
+.escucharEn {
+    text-align: right;
+}
+                /* CONCIERTOS */
+.proxConc {
+    font-style: oblique;
+}
+.antConc {
+    text-align: center;
+    color: rgb(245, 194, 131);
+}
+                /* CONTACTO */
+form {
+    margin: auto;
+    max-width: 800px;
+    background-color: rgb(94, 58, 4);
+}
+label {
+    padding: 15px;
+}
+.contacto {
+    margin: auto;
+    max-width: 800px;
+    padding: 10px;
+    background-color: #1b1715;
+    color: rgb(245, 194, 131);
+}
