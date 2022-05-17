@@ -28,6 +28,10 @@ a:hover {
 .iconoPlataformas {
     padding: 5px;
     color: rgb(143, 73, 8);
+    transition: transform .3s;
+}
+.iconoPlataformas:hover {
+    transform: translate(0, 5px);
 }
 nav ul {
     display: flex;
