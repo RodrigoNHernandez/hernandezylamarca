@@ -50,7 +50,7 @@ nav ul {
     list-style: none;
     justify-content: center;
 }
-.botonMenu:hover {
+.botonMenu:hover, .botonMedia:hover {
     background-color: #d3570b;
 }
 .linkMenu {
@@ -64,6 +64,12 @@ nav ul {
 }
 .linkMenu {
     color:antiquewhite;
+}
+.submenu {
+    display: none;
+}
+.botonMedia:hover > .submenu {
+    display: block;
 }
                 /* INICIO, BIENVENIDA, IMAGEN DE INICIO Y ALGÚN TÍTULO */
 .contenedor {
