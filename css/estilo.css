@@ -82,8 +82,17 @@ nav ul {
     margin-left: auto;
     margin-right: auto;
     width: 820px;
-    border: 5px solid black;
+    border: 2px solid black;
     padding: 15px;
+}
+.imgInicio {
+    border-radius: 10px;
+    filter: opacity(90%);
+    transition: filter(2s);
+}
+.imgInicio:hover {
+    filter: grayscale(0%);
+    outline: solid 2px black;
 }
                 /* SECCION, CONTENIDO DE NOTICIAS, BLOG, ETC, EN COLUMNAS */
 
@@ -161,6 +170,7 @@ nav ul {
     padding: 20px;
 }
 .tapaSimple {
+    border-radius: 10px;
     width: 90%;
     transition: transform 1s;
 }    
