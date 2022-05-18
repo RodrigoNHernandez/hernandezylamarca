@@ -202,6 +202,9 @@ label {
     color: rgb(245, 194, 131);
 }
             /* MEDIA: IMAGENES */
+.grillaImg {
+    display: grid;
+}
 .imgMedia {
     width: 200px;
     height: 160px;
