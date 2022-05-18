@@ -147,7 +147,11 @@ nav ul {
 }
 .tapaSimple {
     width: 90%;
+    transition: transform 1s;
 }    
+.tapaSimple:hover {
+    transform: scale(1.2);
+}   
 h2 {
     font-weight: bold;
     margin: 20px;
