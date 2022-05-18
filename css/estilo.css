@@ -205,4 +205,10 @@ label {
 .imgMedia {
     width: 200px;
     height: 160px;
+    filter: grayscale(100%);
+    transition: filter(2s);
+}
+.imgMedia:hover {
+    filter: grayscale(0%);
+    transform: scale(1.06);
 }
