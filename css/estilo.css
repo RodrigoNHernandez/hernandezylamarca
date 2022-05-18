@@ -14,6 +14,18 @@ a,:visited,:active {
 a:hover {
     color: rgb(245, 122, 8);
 }
+h2 {
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+    color: #bdb5b0;
+}
+h3 {
+    text-align: center;
+    color: #645a54;
+    margin: 10px;
+    font-style: italic;
+}
                 /* CABECERA */
 .cabecera {
     margin: auto;
@@ -152,12 +164,6 @@ nav ul {
 .tapaSimple:hover {
     transform: scale(1.2);
 }   
-h2 {
-    font-weight: bold;
-    margin: 20px;
-    text-align: center;
-    color: #bdb5b0;
-}
 .tituloSimple {
     background-color: #1b1715;
     padding: 10px;
