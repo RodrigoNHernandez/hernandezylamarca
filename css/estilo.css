@@ -90,10 +90,14 @@ nav ul {
                 /* INICIO, BIENVENIDA, IMAGEN DE INICIO Y ALGÚN TÍTULO */
 .contenedor {
     display: flex;
-    margin-top: 30px;
+    align-items: center;
+    margin: 30px;
 }
 .inicio {
+    background-color: aqua;
     color:aliceblue;
+.info-lanzamiento {
+    background-color: white;
 }
 .imagenInicio {
     margin-bottom: 20px;
