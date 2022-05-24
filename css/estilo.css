@@ -24,7 +24,6 @@ h1 {
 h2 {
     font-weight: bold;
     margin: 20px;
-    text-align: center;
     color: #bdb5b0;
 }
 h3 {
@@ -90,19 +89,14 @@ nav ul {
 }
                 /* INICIO, BIENVENIDA, IMAGEN DE INICIO Y ALGÚN TÍTULO */
 .contenedor {
+    display: flex;
     margin-top: 30px;
 }
 .inicio {
-    text-align: center;
     color:aliceblue;
 }
 .imagenInicio {
-    background-color: #72310dda;
     margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 820px;
-    border: 2px solid black;
     padding: 15px;
 }
 .imgInicio {
