@@ -62,6 +62,10 @@ h3 {
         }
 }
                 /* CABECERA */
+header {
+    position: sticky;
+    top: 0;
+}
 .cabecera {
     margin: auto;
     width: 820px;
