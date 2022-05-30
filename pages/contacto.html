@@ -32,24 +32,15 @@
     </header>
 
     <main>
-        <h2>Contacto</h2>
-        <p class="contacto">Si desea un contacto directo con nuestro equipo, puede hacerlo rellenando el siguiente formulario. Gracias.</p>
+        <h2 class="tit-contacto">Contacto</h2>
+        <p class="contacto">Si desea comunicarse directamente con nuestro equipo, puede hacerlo rellenando el siguiente formulario. Gracias.</p>
         <form>
-                <label for="nombre">Nombre</label>
-                <input type="text" placeholder="Escribe tu nombre" name="Nombre" id="nombre" required /><br>
-
-                <label for="apellido">Apellido</label>
-                <input type="text" placeholder="Escribe tu apellido" name="Apellido" id="Apellido" required /><br>
-                
-                <label for="e-mail">E-mail</label>
-                <input type="text" placeholder="Escribe tu e-mail" name="E-mail" id="e-mail" required /><br>
-            
-                <label>Comentario</label>
-                <textarea name="Comentarios">
-
-                </textarea><br>
-                
-                <input type="submit" value="Enviar" />
+                <input class="datos-contacto" type="text" placeholder="NOMBRE" name="Nombre" id="nombre" required /><br>
+                <input class="datos-contacto" type="text" placeholder="APELLIDO" name="Apellido" id="Apellido" required /><br>
+                <input class="datos-contacto" type="text" placeholder="E-MAIL" name="E-mail" id="e-mail" required /><br>
+                <textarea class="comentarios" placeholder="ESCRIBA AQUÍ SU COMENTARIO. GRACIAS." name="Comentarios"></textarea>
+        </br>
+                <input CLASS="boton-enviar" type="submit" value="Enviar" />
         </form>
     </main>
 
