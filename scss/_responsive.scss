@@ -1,0 +1,34 @@
+/* MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+    #menuPrincipal {
+        flex-direction: column;
+        text-align: left;
+    }
+    nav ul {
+        flex-direction: column;
+        text-align: left;
+        margin: auto;
+    }
+    .caja-logo {
+        text-align: center;
+    }
+    .cajaImagenInicio {
+        text-align: center;
+        width: 100%;
+    }
+    #heroe {
+        margin: 15px;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tapaElPlato {
+        width: 100%;
+    }
+    .info-lanzamiento {
+        text-align: center;
+    }
+    h2 {
+        font-size: larger;
+    }
+}
