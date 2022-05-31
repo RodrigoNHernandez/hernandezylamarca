@@ -32,3 +32,12 @@
         font-size: larger;
     }
 }
+
+/* CONTACTO */
+@media screen and (max-width: 600px) {
+    .comentarios {
+        width: $ancho/2.5;
+        height: $alto;
+        text-align: center;
+    }
+}

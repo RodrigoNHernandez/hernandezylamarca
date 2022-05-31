@@ -218,45 +218,4 @@ nav ul {
     transform: scale(1.05);
     outline: solid 2px;
 }
-        /* FORMULARIO DE CONTACTO */
-form {
-    text-align: center;
-    width: 50%;
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-    margin: auto;
-    padding: 30px;
-}
-label {
-    font-weight: bold;
-    text-align: left;
-    margin: 10px;
-    font-size: 20px;
-    padding: 20px;
-}
-.tit-contacto {
-    font-family: Arial, Helvetica, sans-serif;
-    color: beige;
-    margin: 20px;
-    font-size: 80px;
-    text-align: center;
-}
-.contacto {
-    text-align: center;
-    font-size: 20px;
-    margin: 20px;
-    max-width: 100%;
-    padding: 10px;
-    background-color: #1b1715;
-    color: rgb(245, 194, 131);
-}
-.comentarios {
-    margin: 5px;
-    width: 400px;
-    height: 250px;
-}
-.boton-enviar {
-    background-color: rgb(139, 81, 14);
-    margin: 10px;
-    width: 100px;
-    height: 50px;
-}
+        
