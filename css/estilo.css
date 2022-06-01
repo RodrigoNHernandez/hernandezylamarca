@@ -21,12 +21,6 @@ a:active {
 h1 {
     text-align: center;
 }
-h3 {
-    text-align: center;
-    color: #645a54;
-    margin: 10px;
-    font-style: italic;
-}
                 /* CABECERA */
 header {
     position: sticky;
@@ -152,41 +146,6 @@ nav ul {
     text-align: center;
     background-color: black;
     color: azure;
-}
-                /* DISCOGRAFIA */
-#cajaSimples {
-    width: 800px;
-    margin: auto;
-    border: #1b1715 1px solid;
-}
-.preDisco {
-    display: grid;
-    grid-template-columns: 25% 75%;
-    grid-template-rows: 25% 75%;
-    margin:auto;
-    width: 780px;
-    padding: 20px;
-}
-.tapaSimple {
-    border-radius: 10px;
-    width: 90%;
-    transition: transform 1s;
-}    
-.tapaSimple:hover {
-    transform: scale(1.2);
-}   
-.tituloSimple {
-    background-color: #1b1715;
-    padding: 10px;
-    color: bisque;
-}
-.lanzamiento, .escucharEn {
-    padding: 10px;
-    background-color: #1b1715;
-    color: rgb(245, 194, 131);
-}
-.escucharEn {
-    text-align: right;
 }
                 /* CONCIERTOS */
 .proxConc {
