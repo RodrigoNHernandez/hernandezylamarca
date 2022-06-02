@@ -1,4 +1,37 @@
 @charset "UTF-8";
+/* BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  font-family: 'Roboto', sans-serif; }
+
+A {
+  text-decoration: none;
+  color: #e9c3ab; }
+
+a:visited {
+  text-decoration: none;
+  color: #8f4908; }
+
+a:hover {
+  color: #f57a08; }
+
+a:active {
+  text-decoration: none;
+  color: #f5ece4; }
+
+h1 {
+  background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+  color: #e9c3ab;
+  text-shadow: 0.04em 0.04em #3d281a;
+  font-size: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; }
+
 /* FORMULARIO DE CONTACTO */
 form {
   text-align: center;
@@ -75,13 +108,16 @@ label {
     text-align: center; } }
 
 /* DISCOGRAFÍA */
-.preDisco {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  margin: auto;
-  width: 85%px;
-  padding: 20px; }
+@media screen and (max-width: 600px) {
+  #cajaSimples {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-self: center;
+    align-self: center;
+    padding: 20px;
+    width: 90%;
+    margin: 20px;
+    border: #1b1715 1px solid; } }
 
 /* DISCOGRAFIA */
 #simples {
@@ -93,8 +129,8 @@ label {
 
 #cajaSimples {
   display: grid;
-  grid-template-columns: 40% 60%;
-  grid-template-rows: 40% 60%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   justify-self: center;
   align-self: center;
   padding: 20px;

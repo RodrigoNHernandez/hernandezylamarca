@@ -44,11 +44,15 @@
 
 /* DISCOGRAFÍA */
 
-.preDisco {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    margin:auto;
-    width: 85%px;
-    padding: 20px;
+@media screen and (max-width: 600px) {
+    #cajaSimples {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-self: center;
+        align-self: center;
+        padding: 20px;
+        width: 90%;
+        margin: 20px;
+        border: #1b1715 1px solid;
+    }
 }
