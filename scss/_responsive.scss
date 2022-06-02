@@ -41,3 +41,14 @@
         text-align: center;
     }
 }
+
+/* DISCOGRAFÍA */
+
+.preDisco {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin:auto;
+    width: 85%px;
+    padding: 20px;
+}
