@@ -1,0 +1,73 @@
+ /* HEROE */
+ #heroe {
+    display: flex;
+    text-align: center;
+}
+.CajaImagenInicio {
+    margin: 10px;
+    width: 50%;
+    text-align: right;  
+}
+.info-lanzamiento {
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    width: 40%;
+}
+.titulosSeccionInicio {
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.tapaElPlato {
+    width: 70%;
+    border-radius: 10px;
+    border: solid 1px;
+    transition: transform 1s;
+}    
+.tapaElPlato:hover {
+    transform: scale(1.02);
+}
+.icono-escuchar {
+    margin: 10px;
+    width: 50%;
+    transition: transform .3s;
+}
+.icono-escuchar:hover {
+    transform: translate(0,5px);
+}
+.link-plato {
+    margin: auto;
+    text-align: left;
+}
+.escucha-ahora {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.titulo-lanzamiento {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #3d281a;
+    text-align: left;
+}
+.p-lanzamiento {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+}
+                /* PIE DE PÁGINA */
+.footer {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: azure;
+}
+.antConc {
+    text-align: center;
+    color: rgb(245, 194, 131);
+}

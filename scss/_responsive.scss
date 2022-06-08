@@ -28,9 +28,23 @@
     .info-lanzamiento {
         text-align: center;
     }
-    h2 {
-        font-size: larger;
+    h1 {
+        font-size: 1rem;
     }
+    .titulo-lanzamiento {
+        text-align: center;
+        font-size: 1.3rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .tapaElPlato {
+        width: 120%;
+    }
+    .p-lanzamiento {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: left;
+    }   
 }
 
 /* CONTACTO */
@@ -54,5 +68,11 @@
         width: 90%;
         margin: 20px;
         border: #1b1715 1px solid;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .antConc {
+        margin-bottom: 0px;
     }
 }
