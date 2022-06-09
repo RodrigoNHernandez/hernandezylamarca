@@ -56,8 +56,6 @@
     }
 }
 
-/* DISCOGRAFÍA */
-
 @media screen and (max-width: 600px) {
     #cajaSimples {
         display: grid;
@@ -74,5 +72,8 @@
 @media screen and (max-width: 600px) {
     .antConc {
         margin-bottom: 0px;
+    }
+    .barra {
+        color: rgb(177, 166, 66);
     }
 }
